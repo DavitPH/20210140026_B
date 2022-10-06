@@ -14,7 +14,7 @@ namespace Bubble_Sort
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
                 if (n <= 20)
-                break;
+                   break;
                 else
                     Console.WriteLine("\nArray dapat mempunyai maksimal 20 elemen.\n");
             }
@@ -67,6 +67,7 @@ namespace Bubble_Sort
             program myList = new program();
             myList.read();
             myList.BubbleSortArray();
+            myList.display();
             Console.WriteLine("\n\nTekan Tombol Apa Saja Untuk Keluar.");
             Console.Read();
         }
