@@ -62,9 +62,6 @@ namespace Bubble_Sort
                 }
             }
         }
-    }
-    class Program
-    {
         static void Main(string[] args)
         {
             program myList = new program();
