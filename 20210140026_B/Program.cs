@@ -31,6 +31,19 @@ namespace Bubble_Sort
             }
         }
 
+        public void display()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Elemental Array yang Telah Tersusun");
+            Console.WriteLine("-----------------------------------");
+
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
+        }
 
     }
     class Program
